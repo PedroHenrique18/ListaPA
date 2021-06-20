@@ -1,0 +1,13 @@
+int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%d ",*(vet+i));
+ }
+  
+  //resultado: consite com os valores do vetor já declarados e o for para percorrer o endereço do vetor e imprimir o valor armazenado respectivamente 
+  
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);//resultado: consite com valores do vetor ja declarados e o for para percorrer e imprimir o endereço de cada posição do vetor 
+  }
