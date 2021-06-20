@@ -1,0 +1,12 @@
+printf("\ni = %d",i); //valor do i
+    printf("vet[%d] = %.1f",i, vet[i]);//valor do vetor na posição i
+    printf(" *(f + %d) = %.1f",i, *(f+i));//incrementa no ponteiro f + i bytes
+    printf("&vet[%d] = %X",i, &vet[i]);//endereço do vetor na posição i
+    printf("(f + %d) = %X",i, f+i);//endereço do ponteiro f + i bytes
+
+//resultado contador/valor/valor/endereco/endereco 
+i = 0vet[0] = 1.1 *(f + 0) = 1.1&vet[0] = CE5B4A00(f + 0) = CE5B4A00
+i = 1vet[1] = 2.2 *(f + 1) = 2.2&vet[1] = CE5B4A04(f + 1) = CE5B4A04
+i = 2vet[2] = 3.3 *(f + 2) = 3.3&vet[2] = CE5B4A08(f + 2) = CE5B4A08
+i = 3vet[3] = 4.4 *(f + 3) = 4.4&vet[3] = CE5B4A0C(f + 3) = CE5B4A0C
+i = 4vet[4] = 5.5 *(f + 4) = 5.5&vet[4] = CE5B4A10(f + 4) = CE5B4A10
