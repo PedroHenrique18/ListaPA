@@ -1,0 +1,4 @@
+  p = mat + 1; //valido
+  p = mat++;   //inválido
+  p = ++mat;   //inválido
+  x = (*mat)++;//valido
