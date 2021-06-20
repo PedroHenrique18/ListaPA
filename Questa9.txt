@@ -1,0 +1,4 @@
+  x for declarado como char?     //resultado 3F1C6D68 3F1C6D69 3F1C6D6A 
+  x for declarado como int?      //resultado FF430240 FF430244 FF430248 
+  x for declarado como float?    //resultado 288310B0 288310B4 288310B8 
+  x for declarado como double?   //resultado 1296D720 1296D728 1296D730
