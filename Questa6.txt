@@ -1,0 +1,1 @@
+*(pulo + 2); //deslocou 2 posiçoes para frente e imprime o terceiro valor do vetor
